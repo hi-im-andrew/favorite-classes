@@ -2,4 +2,23 @@
     width: 500px;
     height: 200px;
     background-color: orange;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.information {
+    text-align: left;
+    padding-left: 15px;
+}
+
+#title {
+    font-weight: bold;
+}
+
+#department {
+    color: red;
+}
+
+#description {
+    font-size: small;
 }

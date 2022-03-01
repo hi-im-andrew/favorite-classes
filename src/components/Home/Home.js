@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import ClassGraphQL from "../Class/ClassGraphQL";
+import Class from "../Class/Class";
 import "./Home.css";
 
 function Home(props) {
@@ -30,7 +30,7 @@ function Home(props) {
             </form>
             <div>
                 {favoriteClasses.map((favClass) =>
-                    <ClassGraphQL name={favClass} key={favClass}></ClassGraphQL>
+                    <Class name={favClass} key={favClass}></Class>
                 )}
             </div>
         </div>

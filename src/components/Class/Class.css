@@ -1,6 +1,5 @@
 .class {
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 200px;
     background-color: orange;
-    align-items: center;
 }
